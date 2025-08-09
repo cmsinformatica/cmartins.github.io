@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano Martins - Portfólio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0d47a1, #1976d2);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 15px;
+        }
+        header h1 {
+            font-size: 2.2em;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        header .buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header .buttons .hire {
+            background-color: white;
+            color: #0d47a1;
+        }
+        header .buttons .cv {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            color: #0d47a1;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .skills, .experience, .education {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #1976d2;
+            text-decoration: none;
+        }
+        @media(max-width: 600px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="foto_cristiano.png" alt="Cristiano Martins">
+    <h1>Cristiano Martins dos Santos</h1>
+    <p>Especialista em Segurança Eletrônica • Projetos de TI • IA e N8N • Análise de Dados</p>
+    <div class="buttons">
+        <a href="mailto:cristiano@cristianomartins.net" class="hire">Contrate-me</a>
+        <a href="Cristiano_Martins_CV.pdf" class="cv" download>Baixar CV</a>
+    </div>
+</header>
+
+<section>
+    <h2>Resumo Profissional</h2>
+    <p>Especialista com mais de 15 anos de experiência em tecnologia, liderando projetos de alta performance em segurança eletrônica, análise de dados e automações. 
+    Combino conhecimento técnico e visão estratégica para entregar soluções que otimizam processos e impulsionam resultados, utilizando ferramentas como Power BI, Looker Studio e integrações com IA.</p>
+</section>
+
+<section>
+    <h2>Competências</h2>
+    <div class="skills">
+        <div class="card"><h3>Segurança de Rede</h3></div>
+        <div class="card"><h3>Gestão de Segurança</h3></div>
+        <div class="card"><h3>Power BI</h3></div>
+        <div class="card"><h3>Looker Studio</h3></div>
+        <div class="card"><h3>Windows & Linux</h3></div>
+        <div class="card"><h3>IA e N8N</h3></div>
+    </div>
+</section>
+
+<section>
+    <h2>Experiência Profissional</h2>
+    <div class="experience">
+        <div class="card">
+            <h3>Consultor Técnico — Avantia</h3>
+            <p><em>ago 2022 – presente • Salvador, BA</em></p>
+            <p>Liderança de projetos de segurança eletrônica, implantação de sistemas de gestão de segurança e desenvolvimento de soluções de análise de dados.</p>
+        </div>
+        <div class="card">
+            <h3>Coordenador Técnico — PerfillTecnologia</h3>
+            <p><em>nov 2021 – set 2022 • Salvador, BA</em></p>
+            <p>Coordenação de equipes e implementação de redes de alta performance para segurança eletrônica.</p>
+        </div>
+        <div class="card">
+            <h3>Técnico Eletrônica — Advance Video LTDA</h3>
+            <p><em>jun 2006 – mar 2020 • Salvador e Região, BA</em></p>
+            <p>Manutenção e configuração de sistemas eletrônicos de segurança, redução de downtime e treinamento técnico.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Formação Acadêmica</h2>
+    <div class="education">
+        <div class="card"><h3>Segurança em Redes de Computadores</h3><p>Uniminas (2024 – 2025)</p></div>
+        <div class="card"><h3>MBA Gestão de Projetos</h3><p>Uniminas (2023 – 2024)</p></div>
+        <div class="card"><h3>Redes de Computadores</h3><p>Universidade Estácio de Sá (2013 – 2015)</p></div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contato</h2>
+    <p>Email: <a href="mailto:cristiano@cristianomartins.net">cristiano@cristianomartins.net</a></p>
+    <p>Telefone: <a href="tel:+5571999213132">(71) 99921-3132</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/cmsinformatica" target="_blank">linkedin.com/in/cmsinformatica</a></p>
+</section>
+
+<footer>
+    © 2025 Cristiano Martins - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
